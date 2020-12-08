@@ -341,6 +341,7 @@ export default (() => {
 				hover-height="25px"
 				hover-display="block"
 				hover-background="#fe982a"
+				link-background="--color-primary"
 			>
 				Полный перечень услуг
 			</Link>
