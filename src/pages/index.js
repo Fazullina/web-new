@@ -172,7 +172,7 @@ export default (() => {
 				<Text
 					font="normal 24px --fontFamily-googleOswald"
 					padding="0 0px 100px 0"
-					width="500px"
+					width="520px"
 					sm-font="normal 10px --fontFamily-googleOswald"
 					text-align="center"
 				>
