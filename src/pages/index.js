@@ -100,7 +100,7 @@ export default (() => {
 				<Stack>
 					<StackItem width="50%" md-width="100%">
 						<Override slot="StackItemContent" />
-						<Text font="46px --fontFamily-googleOswald" padding="30px 0px 0px 0px" text-align="center">
+						<Text font="46px --fontFamily-googleOswald" padding="30px 0px 0px 0px" text-align="center" height="200px">
 							Вам требуется юридическая помощь?
 						</Text>
 					</StackItem>
@@ -172,7 +172,7 @@ export default (() => {
 				<Text
 					font="normal 24px --fontFamily-googleOswald"
 					padding="0 0px 100px 0"
-					width="470px"
+					width="500px"
 					sm-font="normal 10px --fontFamily-googleOswald"
 					text-align="center"
 				>
