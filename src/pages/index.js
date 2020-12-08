@@ -100,7 +100,7 @@ export default (() => {
 				<Stack>
 					<StackItem width="50%" md-width="100%">
 						<Override slot="StackItemContent" />
-						<Text font="46px --fontFamily-googleOswald" padding="30px 0px 0px 100px" text-align="center">
+						<Text font="46px --fontFamily-googleOswald" padding="30px 0px 0px 0px" text-align="center">
 							Вам требуется юридическая помощь?
 						</Text>
 					</StackItem>
@@ -169,7 +169,13 @@ export default (() => {
 						</Formspree>
 					</Box>
 				</Stack>
-				<Text font="normal 24px --fontFamily-googleOswald" padding="200px 0px 100px 125px" width="500px" sm-font="normal 10px --fontFamily-googleOswald">
+				<Text
+					font="normal 24px --fontFamily-googleOswald"
+					padding="0 0px 100px 0"
+					width="450px"
+					sm-font="normal 10px --fontFamily-googleOswald"
+					text-align="center"
+				>
 					Наши специалисты могут Вам помочь!
 				</Text>
 			</Section>
@@ -341,7 +347,6 @@ export default (() => {
 				hover-height="25px"
 				hover-display="block"
 				hover-background="#fe982a"
-				link-background="--color-primary"
 			>
 				Полный перечень услуг
 			</Link>
