@@ -106,7 +106,7 @@ export default (() => {
 					</StackItem>
 					<Box
 						max-width="360px"
-						padding="56px 48px 56px 48px"
+						padding="30px 48px 70px 48px"
 						margin="0 0 0 auto"
 						md-max-width="100%"
 						background="--color-light linear-gradient(0deg,rgba(0,0,0,0) 0%,#6bc4a6 45.7%)"
@@ -169,7 +169,7 @@ export default (() => {
 						</Formspree>
 					</Box>
 				</Stack>
-				<Text font="normal 24px --fontFamily-googleOswald" padding="200px 0px 100px 150px" width="500px" sm-font="normal 10px --fontFamily-googleOswald">
+				<Text font="normal 24px --fontFamily-googleOswald" padding="200px 0px 100px 125px" width="500px" sm-font="normal 10px --fontFamily-googleOswald">
 					Наши специалисты могут Вам помочь!
 				</Text>
 			</Section>
@@ -338,6 +338,9 @@ export default (() => {
 				lg-margin="24px 0px 0px 0px"
 				md-margin="36px 0px 0px 0px"
 				width="1250px"
+				hover-height="25px"
+				hover-display="block"
+				hover-background="#fe982a"
 			>
 				Полный перечень услуг
 			</Link>
@@ -349,8 +352,8 @@ export default (() => {
 				background="--color-light"
 				color="--dark"
 				display="initial"
-				width="435px"
-				height="650px"
+				width="481px"
+				height="310px"
 			>
 				<Text
 					as="h4"
@@ -361,6 +364,7 @@ export default (() => {
 					margin="6px 0"
 					white-space="normal"
 					text-align="center"
+					padding="10px 0px 0px 0px"
 				>
 					О компании
 				</Text>
@@ -368,8 +372,9 @@ export default (() => {
 					font="normal 300 21px/1.5 --fontFamily-googleOswald"
 					color="#005236"
 					text-align="justify"
-					width="470px"
-					padding="0px 10px 0px 0px"
+					width="520px"
+					padding="px 10px 0px 0px"
+					height="330px"
 				>
 					{"  "}"Юрист.ру" молодая, перспективная компания в сфере оказания юридических услуг.
 					<br />
@@ -377,12 +382,16 @@ export default (() => {
 					<br />
 					{"   "}Главным вектором деятельности являются актуальные проблемы взыскания и возврата долгового обязательства физических и юридических лиц.
 					<br />
-					{"   "}Мы дорожим нашей репутацией, поэтому прикладываем максимум усилий для положительного результата по каждому делу, рассматривая все случаи в индивидуальном порядке.
-					<br />
 					{"  "}Мы гарантируем конфиденциальность, так как безопасность и сохранность личных данных это гарантия качества.
 				</Text>
-				<Image width="480px" height="260px" src="https://uploads.quarkly.io/5fc0b4b179530b001fd2cf31/images/%D1%81%D1%85%D0%B5%D0%BC%D0%B0.png?v=2020-11-29T20:22:15.227Z" padding="0px px 0px 0px" />
 			</Box>
+			<Image
+				width="610.8px"
+				height="330px"
+				src="https://uploads.quarkly.io/5fc0b4b179530b001fd2cf31/images/%D1%81%D1%85%D0%B5%D0%BC%D0%B0.png?v=2020-11-29T20:22:15.227Z"
+				padding="0px px 1px 0px"
+				margin="-10px 0px 0px 0px"
+			/>
 		</Section>
 		<Section text-align="center" padding="50px 0 100px 0" sm-padding="40px 0">
 			<Text
@@ -485,7 +494,7 @@ export default (() => {
 					<Text as="h3" font="normal 500 28px/1.2 --fontFamily-googlePlayfairDisplay" margin="5px 0 20px 0" color="--orange">
 						Симонова А. И.
 					</Text>
-					<Text as="p" margin="20px 0 5px 0" text-align="justify" font="300 19px/24px --fontFamily-googleOswald">
+					<Text as="p" margin="20px 0 5px 0" text-align="left" font="350 19px/24px --fontFamily-googleOswald">
 						Благодарю сплоченный коллектив юристов вашей юридической компании «Юрист.ру» за плодотворное сотрудничество! Моя проблема решена положительно благодаря вашей команде! Желаю успехов в непростом деле защиты прав и законных интересов граждан.
 					</Text>
 				</StackItem>
@@ -495,7 +504,7 @@ export default (() => {
 					<Text as="h3" font="normal 500 28px/1.2 --fontFamily-googlePlayfairDisplay" margin="5px 0 20px 0" color="--orange">
 						Егоров В. Н.
 					</Text>
-					<Text as="p" margin="20px 0 5px 0" text-align="justify" font="300 19px/24px --fontFamily-googleOswald">
+					<Text as="p" margin="20px 0 5px 0" text-align="left" font="350 19px/24px --fontFamily-googleOswald">
 						Выражаю благодарность сотрудникам юридической компании “Юрист.ру”, за квалифицированную помощь и профессионализм, оказанные в решении моего вопроса. Удачи и процветания Вам.
 					</Text>
 				</StackItem>
@@ -505,7 +514,7 @@ export default (() => {
 					<Text as="h3" font="normal 500 28px/1.2 --fontFamily-googlePlayfairDisplay" margin="5px 0 20px 0" color="--orange">
 						Антонов А. А.
 					</Text>
-					<Text as="p" margin="20px 0 5px 0" text-align="justify">
+					<Text as="p" margin="20px 0 5px 0" text-align="justify" font="350 16px/24px -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif">
 						<Strong
 							overflow-wrap="normal"
 							word-break="normal"
@@ -516,7 +525,7 @@ export default (() => {
 						>
 							<Strong
 								font="300 19px/24px --fontFamily-googleOswald"
-								text-align="justify"
+								text-align="left"
 								overflow-wrap="normal"
 								word-break="normal"
 								white-space="normal"
@@ -535,7 +544,7 @@ export default (() => {
 					<Text as="h3" font="normal 500 28px/1.2 --fontFamily-googlePlayfairDisplay" margin="5px 0 20px 0" color="--orange">
 						Иванова Л. Г.
 					</Text>
-					<Text as="p" margin="20px 0 5px 0" text-align="justify" font="300 19px/24px --fontFamily-googleOswald">
+					<Text as="p" margin="20px 0 5px 0" text-align="left" font="350 19px/24px --fontFamily-googleOswald">
 						Юрист компании внимательно меня выслушал, изучил мою проблему и подобрал решение.
 						<br />
 						Представитель от компании  оказался настоящим профессионалом, во много благодаря ему дело завершилось успешно.
