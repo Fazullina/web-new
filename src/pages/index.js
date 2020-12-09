@@ -349,6 +349,7 @@ export default (() => {
 				cursor="pointer"
 				display="inline-block"
 				border-style="none"
+				href="/work"
 			>
 				Полный перечень услуг
 			</Link>
