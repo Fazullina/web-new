@@ -349,7 +349,6 @@ export default (() => {
 				cursor="pointer"
 				display="inline-block"
 				border-style="none"
-				target="_blank"
 			>
 				Полный перечень услуг
 			</Link>
